@@ -1,11 +1,46 @@
 :root {
-  --bs-primary: #0d6efd;
-  --bs-secondary: #6c757d;
+  --bs-primary: #00425a;
+  --bs-secondary: #fc7300;
+  --bs-third: #dadada;
+  --bs-background: #f9f9f9;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   font-family: "Poppins", sans-serif;
+}
+
+body {
+  background-color: var(--bs-background);
+}
+
+h1 {
+  color: var(--bs-primary);
+}
+
+#mainFaq {
+  background-color: var(--bs-primary);
+}
+
+#bantuan {
+  background-color: var(--bs-secondary);
+}
+
+#snk {
+  background-color: var(--bs-primary);
+}
+
+#rating {
+  background-color: var(--bs-secondary);
+}
+
+.tanya {
+  background-color: var(--bs-third);
+}
+
+.jawab {
+  background-color: var(--bs-secondary);
+}
+
+.versi {
+  columns: var(--bs-primary);
 }
