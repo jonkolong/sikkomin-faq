@@ -119,7 +119,7 @@
                     <div class="collapse" id="collapseFAQ5">
                       <small class="card card-body  jawab">Validasi TTE laporan bulanan dapat diakses melalui opsi Periksa TTE pada menu Berkasku.</small>
                       <small class="text-danger">Catatan:<br /></small>
-                      <small>Jika valid, maka file berisi nama 2 (dua) orang</small>
+                      <small>Jika valid, maka tercantum nama 2 (dua) orang penandatangan</small>
                     </div>
                   </div>
                 </div>
@@ -159,8 +159,8 @@
                     </div>
                     <div class="collapse" id="collapseFAQ7">
                       <small class="card card-body  jawab"><ul>
-                        <li>Jika pada opsi Periksa TTE tidak barisi nama anggota dan/atau atasan, maka perbaiki validasi TTE laporan bulanan Anda</li>
-                        <li>Jika pada opsi Periksa TTE sudah barisi nama anggota dan/atau atasan, silahkan pasang aplikasi pembaca PDF pada perangkat Anda</li>
+                        <li>Jika pada opsi Periksa TTE tidak tercantum nama anggota dan/atau atasan, maka perbaiki validasi TTE laporan bulanan Anda</li>
+                        <li>Jika pada opsi Periksa TTE sudah tercantum nama anggota dan/atau atasan, silahkan pasang aplikasi pembaca PDF pada perangkat Anda</li>
                       </ul></small>
                       <small class="text-danger">Catatan:<br /></small>
                       <small>Gagal mengunduh juga bisa terjadi saat ada gangguan pada server atau gangguan koneksi internet</small>
@@ -202,27 +202,42 @@
     <!--  -->
     <!--  -->
 
+    <!-- Bantuan -->
     <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="bantuan">
       <div class="row">
         <div class="col-10">
           <h4>
-            <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseBantuan" class="text-decoration-none text-dark"><i class="bi bi-exclamation-triangle text-decoration-none text-dark"></i> Bantuan</a>
+            <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHelp" class="text-decoration-none text-light"><i class="bi bi-exclamation-triangle text-decoration-none text-light"></i> Bantuan</a>
           </h4>
         </div>
         <div class="col-2">
           <h4 class="text-end me-2">
-            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapseBantuan"><i class="bi bi-three-dots-vertical text-decoration-none text-dark"></i></a>
+            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapseHelp"><i class="bi bi-three-dots-vertical text-decoration-none text-light"></i></a>
           </h4>
         </div>
       </div>
-      <div class="collapse" id="collapseBantuan">
+      <div class="collapse" id="collapseHelp">
         <div class="card tanya card-body">
-          <p><i class="bi bi-whatsapp text-success"></i> Chat Admin</p>
-          <p><i class="bi bi-mailbox text-danger"></i> Email Admin</p>
+          <!-- Start -->
+          <div class="collapse" id="collapseHelp">
+            <div class="card card-body tanya mb-2">
+              <div class="row">
+                <div class="col">
+                    <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHelp1" class="text-decoration-none text-dark"><i class="bi bi-whatsapp text-success"></i> Obrolan via WhatsApp</a>
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="collapseHelp1">
+                <small class="card card-body jawab"><a href="https://wa.me/628116097700" class="text-decoration-none text-light">Klik untuk memulai obrolan dengan Layanan Sikkomin DS</a></small>
+              </div>
+            </div>
+          </div>
+          <!-- End -->
         </div>
       </div>
     </div>
 
+    <!-- Syarat dan Ketentuan -->
     <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="snk">
       <div class="row">
         <div class="col-10">
@@ -246,18 +261,20 @@
       </div>
     </div>
 
+    <!-- Ulas aplikasi -->
     <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="rating">
       <div class="row">
         <div class="col-10">
           <h4>
-            <a href="https://play.google.com/store/apps/details?id=id.go.deliserdangkab.sikkomin" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUlas" class="text-decoration-none text-dark"><i class="bi bi-hand-thumbs-up text-decoration-none text-dark"></i> Ulas Aplikasi</a>
+            <div type="button" data-bs-toggle="collapse" data-bs-target="#collapseUlas" class="text-decoration-none text-light"><a href="https://play.google.com/store/apps/details?id=id.go.deliserdangkab.sikkomin" class="text-decoration-none text-light""><i class="bi bi-hand-thumbs-up text-decoration-none text-light"> Ulas Aplikasi</i></a></div>
           </h4>
         </div>
       </div>
       </div>
     </div>
 
-    <p class="text-center versi">Sikkomin DS v2.19.10</p>
+    <!-- versi -->
+    <p class="text-center text-muted versi">Sikkomin DS v2.19.10</p>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
   </body>

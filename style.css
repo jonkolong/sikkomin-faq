@@ -40,7 +40,3 @@ h1 {
 .jawab {
   background-color: var(--bs-secondary);
 }
-
-.versi {
-  columns: var(--bs-primary);
-}
