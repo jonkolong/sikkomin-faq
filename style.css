@@ -22,11 +22,11 @@ h1 {
 }
 
 #bantuan {
-  background-color: var(--bs-secondary);
+  background-color: var(--bs-primary);
 }
 
 #snk {
-  background-color: var(--bs-primary);
+  background-color: var(--bs-secondary);
 }
 
 #rating {
@@ -39,4 +39,8 @@ h1 {
 
 .jawab {
   background-color: var(--bs-secondary);
+}
+
+.tnc {
+  background-color: var(--bs-background);
 }
