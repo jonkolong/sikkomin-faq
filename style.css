@@ -21,8 +21,16 @@ h1 {
   background-color: var(--bs-primary);
 }
 
-#bantuan {
+#panduan {
   background-color: var(--bs-primary);
+}
+
+.panduan {
+  background-color: var(--bs-third);
+}
+
+.panduanIsi {
+  background-color: var(--bs-background);
 }
 
 #snk {
