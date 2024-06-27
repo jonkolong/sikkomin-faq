@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pusat Bantuan | Kinerja DS v2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400;500;600&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,100;1,200;1,300;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,100;1,300;1,400;1,500&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Css -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="justify-content-center align-items-center vh-100 bg-muted">
+    <div class="container">
+      <h1 class="text-center mt-4">Pusat Bantuan</h1>
+    </div>
+
+    <!-- FAQ -->
+    <div class="card m-4 p-2 rounded shadow border-light-subtle border-opacity-25" id="mainFaq">
+      <div class="row">
+        <div class="col-10">
+          <h5>
+            <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ" class="text-decoration-none text-light"><i class="bi bi-question-diamond text-decoration-none text-light"></i> Sering Ditanyakan</a>
+          </h5>
+        </div>
+        <div class="col-2">
+          <h5 class="text-end me-2">
+            <a href="#" data-bs-toggle="collapse" data-bs-target="#collapseFAQ"><i class="bi bi-three-dots-vertical text-decoration-none text-light" id="arrow"></i></a>
+          </h5>
+        </div>
+      </div>
+      <!-- Start -->
+      <div class="collapse" id="collapseFAQ">
+        <div class="card card-body tanya mb-2">
+          <div class="row">
+            <div class="col">
+              <p>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ1" class="text-decoration-none text-dark">Bagaimana cara mendaftarkan akun?</a>
+              </p>
+            </div>
+          </div>
+          <div class="collapse" id="collapseFAQ1">
+            <small class="card card-body jawab">Anda bisa mendaftar menggunakan nomor WhatsApp melalui admin Kinerja DS pada unit kerja Anda.</small>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+      <!-- Start -->
+      <div class="collapse" id="collapseFAQ">
+        <div class="card card-body tanya mb-2">
+          <div class="row">
+            <div class="col-10">
+              <p>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ2" class="text-decoration-none text-dark">Bagaimana cara mendapatkan token login?</a>
+              </p>
+            </div>
+          </div>
+          <div class="collapse" id="collapseFAQ2">
+            <small class="card card-body jawab">Token dikirimkan melalui WhatsApp setiap kali Anda login menggunakan nomor WhatsApp yang sudah terdaftar.</small>
+            <small class="text-danger">Catatan:<br /></small>
+            <small>Pastikan perangkat Anda terhubung ke internet</small>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+      <!-- Start -->
+      <div class="collapse" id="collapseFAQ">
+        <div class="card card-body tanya mb-2">
+          <div class="row">
+            <div class="col">
+                  <p>
+                    <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ3" class="text-decoration-none text-dark">Bagaimana cara mengganti nomor WhatsApp terdaftar di akun saya?</a>
+                  </p>
+                </div>
+              </div>
+              <div class="collapse" id="collapseFAQ3">
+                <small class="card card-body jawab">Anda bisa mengganti nomor WhatsApp terdaftar di akun Anda melalui admin pada unit kerja Anda.</small>
+                <small class="text-danger">Catatan:<br /></small>
+                <small>Data yang sudah anda buat tetap tersimpan di database aplikasi</small>
+              </div>
+            </div>
+          </div>
+        <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseFAQ">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ4" class="text-decoration-none text-dark">Bagaimana cara reset "passphrase" sertifikat tanda tangan elektronik?</a>
+                </p>
+                      </div>
+                    </div>
+                    <div class="collapse" id="collapseFAQ4">
+                      <small class="card card-body jawab">Silahkan hubungi Bidang TIKSan seksi Persandian pada Dinas Kominfostan Kab. Deli Serdang.</small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <small>Tidak boleh diwakilkan</small>
+                    </div>
+                  </div>
+                </div>
+        <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseFAQ">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ5" class="text-decoration-none text-dark">Bagaimana cara validasi TTE laporan bulanan saya?</a>
+                </p>
+                      </div>
+                    </div>
+                    <div class="collapse" id="collapseFAQ5">
+                      <small class="card card-body  jawab">Validasi TTE laporan bulanan dapat diakses melalui opsi Periksa TTE pada menu Berkasku.</small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <small>Jika valid, maka tercantum nama 2 (dua) orang penandatangan</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+                <!-- Start -->
+        <div class="collapse" id="collapseFAQ">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ6" class="text-decoration-none text-dark">Apa yang menyebabkan gagal pada saat proses tanda tangan elektronik pada laporan bulanan saya?</a>
+                </p>
+                      </div>
+                    </div>
+                    <div class="collapse" id="collapseFAQ6">
+                      <small class="card card-body jawab"><ul>
+                        <li>Adanya gangguan internet</li>
+                        <li>Adanya gangguan server</li>
+                        <li>Spesifikasi perangkat tidak mendukung</li>
+                        <li>Harus ada minimal 1 (satu) baris laporan harian pada lembar terakhir (lembar tanda tangan elektronik)</li>
+                        </ul></small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <small>Batas proses gagal tanda tangan elektronik adalah sebanyak 3 (tiga) kali berturut-turut. Jika terblokir, silahkan hubungi Bidang TIKSan seksi Persandian pada Dinas Kominfostan Kab. Deli Serdang</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseFAQ">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ7" class="text-decoration-none text-dark">Apa yang menyebabkan file laporan bulanan saya tidak bisa ditampilkan atau gagal diunduh?</a>
+                </p>
+                      </div>
+                    </div>
+                    <div class="collapse" id="collapseFAQ7">
+                      <small class="card card-body jawab"><ul>
+                        <li>Jika pada opsi Periksa TTE tidak tercantum nama anggota dan/atau atasan, maka perbaiki validasi TTE laporan bulanan Anda</li>
+                        <li>Jika pada opsi Periksa TTE sudah tercantum nama anggota dan/atau atasan, silahkan pasang aplikasi pembaca PDF pada perangkat Anda</li>
+                      </ul></small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <small>Gagal mengunduh juga bisa terjadi saat ada gangguan pada server atau gangguan koneksi internet</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseFAQ">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFAQ8" class="text-decoration-none text-dark">Bagaimana cara memperbaiki validasi TTE laporan bulanan yang gagal?</a>
+                </p>
+                      </div>
+                    </div>
+                    <div class="collapse" id="collapseFAQ8">
+                      <small class="card card-body jawab"><ul>
+                        <li>Hapus file yang gagal validasi TTE di menu Berkasku (perhatikan bulan dan tahun)</li>
+                        <li>Ulangi proses pengajuan tanda tangan laporan bulunan mulai dari anggota hingga atasan</li>
+                      </ul></small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <small>Proses tanda tangan akan gagal jika pada lembar terakhir (lembar tanda tangan elektronik) pada dokumen tidak menyertakan minimal 1 (satu) baris laporan harian</small>
+                    </div>
+                  </div>
+                </div>
+                <!-- End -->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- ending FAQ -->
+
+        <!-- Syarat dan Ketentuan -->
+        <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="snk">
+          <div class="row">
+            <div class="col-10">
+              <h5>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK" class="text-decoration-none text-light"><i class="bi bi-newspaper text-decoration-none text-light"></i> Syarat & Ketentuan</a>
+              </h5>
+            </div>
+            <div class="col-2">
+              <h5 class="text-end me-2">
+                <a href="#" data-bs-toggle="collapse" data-bs-target="#collapseSNK"><i class="bi bi-three-dots-vertical text-decoration-none text-light"></i></a>
+              </h5>
+            </div>
+          </div>
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK1" class="text-decoration-none text-dark">Syarat dan Ketentuan</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK1">
+                  <div class="card card-body tnc">
+                    <small>Syarat dan Ketentuan yang ditetapkan di bawah ini mengatur hal-hal yang ditawarkan oleh Dinas Kominfostan Kab. Deli Serdang terkait penggunaan aplikasi Kinerja DS dan/atau Tanda Tangan Elektronik (TTE). Pengguna disarankan membaca dengan seksama karena dapat berdampak kepada hak dan kewajiban Pengguna di bawah hukum.</small>
+                    <small><br>Dengan mendaftar dan/atau menggunakan aplikasi Kinerja DS, maka Pengguna dianggap telah membaca, mengerti, memahami dan menyetujui semua isi dalam Syarat dan Ketentuan ini. Syarat dan Ketentuan ini merupakan bentuk kesepakatan yang dituangkan dalam sebuah perjanjian yang sah antara Dinas Kominfostan Kab. Deli Serdang dengan Pengguna. Jika Pengguna tidak menyetujui salah satu, sebagian, atau seluruh isi Syarat dan Ketentuan ini, maka Pengguna tidak diperkenankan menggunakan layanan yang terdapat dalam aplikasi Kinerja DS.</small>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK2" class="text-decoration-none text-dark">A. Definisi</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK2">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Badan Kepegawaian, Pelatihan dan Sumber Daya Manusia Kabupaten Deli Serdang(selanjutnya disebut sebagai “BKPSDM”) adalah suatu organisasi perangkat daerah yang mengelola sebuah aplikasi pelaporan kinerja harian, yang menyediakan Layanan kepegawaian bagi Pengguna dengan nama Kinerja DS.</li></small>
+                      <small><li>Dinas Komunikasi, Informatika, Statistik dan Persandian Kabupaten Deli Serdang(selanjutnya disebut sebagai “Diskominfostan”) adalah suatu organisasi perangkat daerah yang mengembangkan sebuah aplikasi pelaporan kinerja harian, yang menyediakan Layanan kepegawaian bagi Pengguna dengan nama Kinerja DS dan Tanda Tangan Elektronik (selanjutnya disebut TTE) dari BSrE-BSSN.</li></small>
+                      <small><li>BSrE-BSSN sebagai Penyelenggara Sertifikat Elektronik (PSrE) pemerintah yang berinduk pada Kementerian Komunikasi dan Informatika Republik Indonesia, menawarkan layanan sertifikasi elektronik yang memiliki kekuatan dan akibat hukum yang sah sesuai dengan Peraturan Perundang-undangan Republik Indonesia yang tercantum pada Undang-Undang ITE Nomor 11.</li></small>
+                      <small><li>Aplikasi adalah Kinerja DS yang dapat diakses melalui perangkat komputer dan/atau perangkat seluler yang secara resmi dimilki dan dikelola oleh Diskominfostan dan BKPSDM.</li></small>
+                      <small><li>Tanda Tangan Elektronik (selanjutnya disebut TTE) adalah sertifikat elektronik dari BSrE-BSSN yang digunakan dalam penandatanganan secara elektronik pada laporan bulanan melalui Aplikasi.</li></small>
+                      <small><li>Android OS adalah sistem operasi yang dirancang untuk perangkat bergerak layar sentuh, berupa perangkat seluler, non seluler, emulator, yang dikembangkan dan didistribusikan oleh Google Inc.</li></small>
+                      <small><li>Pengguna adalah pihak yang menggunakan layanan Aplikasi, termasuk namun tidak terbatas pada pihak yang terdaftar maupun tidak terdaftar/sekedar berkunjung Aplikasi.</li></small>
+                      <small><li>Layanan adalah layanan terkait pelaporan kinerj harian dan bulanan yang disediakan oleh BKPSDM dan/atau Diskominfostan melalui Aplikasi.</li></small>
+                      <small><li>Data adalah informasi pribadi Pengguna yang diperoleh, dikumpulkan, diolah, dianalisa, ditampilkan, dibuka dan/atau segala bentuk pengelolaan yang terkait dengan data atau informasi yang Pengguna berikan kepada BKPSDM atau yang BKPSDM kumpulkan dari Pengguna, baik pada saat Pengguna melakukan pendaftaran di Aplikasi, mengakses Aplikasi, maupun mempergunakan layanan-layanan pada Aplikasi.</li></small>
+                      <small><li>Laporan adalah laporan kinerja harian dan laporan bulanan yang dibuat oleh Pengguna.</li></small>
+                      <small><li>Layanan Pengguna adalah fitur yang disediakan oleh BKPSDM dan Diskominfostan untuk memfasilitasi penyelesaian kendala/masalah yang dialami Pengguna dalam menggunakan Aplikasi, termasuk namun tidak terbatas pada kendala laporan, kendala penandatanganan, kendala presensi, kendala mutasi dan/atau penghentian penggunaan Aplikasi.</li></small>
+                      <small><li>Ketentuan Aplikasi adalah Syarat dan Ketentuan, Kebijakan Privasi, dan setiap syarat dan ketentuan lain yang dapat berlaku untuk atau sehubungan dengan penggunaan Aplikasi dan seluruh fitur yang terdapat di dalamnya.</li></small>
+                      <small><li>Syarat dan Ketentuan adalah syarat dan ketentuan untuk menggunakan Aplikasi.</li></small>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK3" class="text-decoration-none text-dark">B. Akun, Token, Passphrase dan Keamanan</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK3">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Pengguna dengan ini menyatakan bahwa Pengguna adalah orang yang cakap dan mampu untuk mengikatkan dirinya dalam sebuah perjanjian yang sah menurut hukum. Apabila dikemudian hari ditemukan bahwa Pengguna tidak cakap dan tidak mampu mengikatkan dirinya dalam sebuah perjanjian maka Pengguna memahami dan menyetujui untuk bertanggungjawab sepenuhnya atas hal tersebut, termasuk namun tidak terbatas pada klaim, gugatan, tuntutan dan/atau upaya hukum lainnya dari BKPSDM, Diskominfostan, dan/atau pihak manapun, atas pelanggaran ketentuan ini.</li></small>
+                      <small><li>BKPSDM dan Diskominfostan tidak memungut biaya pendaftaran kepada Pengguna untuk pembuatan akun pada Aplikasi.</li></small>
+                      <small><li>Dalam melakukan pendaftaran pada Aplikasi maka Pengguna diwajibkan untuk mencantumkan:</li>
+                      <ol type="a">
+                        <li>Nama</li>
+                        <li>Nomor WhatsApp</li>
+                        <li>Sertifikat Elektronik</li>
+                      </ol></small>
+                      <small><li>Pengguna wajib menjamin keaslian dari identitas yang dicantumkan pada saat pendaftaran dan/atau pembuatan akun di Aplikasi dan melepaskan BKPSDM dan Diskominfostan dari segala klaim, somasi, tuntutan, gugatan dan/atau upaya hukum lainnya sehubungan dengan penyalahgunaan informasi yang dicantumkan tersebut.</li></small>
+                      <small><li>BKPSDM dan/atau Diskominfostan memiliki kewenangan untuk menutup dan/atau memblokir akun Pengguna, baik sementara maupun permanen apabila didapati adanya tindakan kecurangan dalam bertransaksi dan/atau pelanggaran terhadap Ketentuan Aplikasi, Syarat dan Ketentuan dan/atau peraturan perundang-undangan yang berlaku. Pengguna memahami dan menyetujui bahwa BKPSDM dan/atau Diskominfostan berhak melakukan tindakan lain yang diperlukan terkait hal tersebut, termasuk namun tidak terbatas pada menolak pengajuan pembuatan akun yang baru yang diajukan oleh Pengguna yang telah melakukan tindakan kecurangan dan/atau pelanggaran tersebut.</li></small>
+                      <small><li>Pengguna dilarang untuk menciptakan dan/atau menggunakan perangkat, software, fitur dan/atau alat lainnya yang bertujuan untuk melakukan manipulasi pada sistem Aplikasi, termasuk namun tidak terbatas pada: (i) manipulasi data akun; (ii) kegiatan perambanan (crawling/scraping); (iii) kegiatan otomatisasi dalam laporan kinerja, penandatanganan, dsb; dan/atau (iv) aktivitas lain yang secara wajar dapat dinilai sebagai tindakan manipulasi sistem.</li></small>
+                      <small><li>Pengguna bertanggungjawab secara pribadi untuk menjaga kerahasiaan akun dan passphrase untuk semua aktivitas yang terjadi menggunakan dan/atau dalam akun Pengguna.</li></small>
+                      <small><li>BKPSDM dan/atau Diskominfostan tidak akan meminta informasi terkait akun Pengguna, termasuk namun tidak terbatas pada passphrase maupun kode Short Message Service (SMS) verifikasi atau kode OneTime Password (OTP) atau kode Token yang diterima akun Pengguna untuk alasan apapun, oleh karena itu, BKPSDM dan/atau Diskominfostan menghimbau Pengguna agar tidak memberikan informasi tersebut maupun informasi penting lainnya kepada pihak yang mengatasnamakan BKPSDM dan/atau Diskominfostan atau pihak lain yang tidak dapat dijamin keamanannya.</li></small>
+                      <small><li>Pengguna setuju untuk memastikan bahwa Pengguna keluar dari akun di akhir setiap sesi dan memberitahu BKPSDM dan/atau Diskominfostan apabila ada penggunaan tanpa izin atas passphrase atau akun Pengguna.</li></small>
+                      <small><li>Pengguna dengan ini menyatakan bahwa BKPSDM dan/atau Diskominfostan tidak bertanggungjawab atas kerugian ataupun kendala yang timbul atas penyalahgunaan akun Pengguna dan/atau kesalahan pemberian informasi dari BKPSDM dan/atau Diskominfostan yang diakibatkan oleh kelalaian Pengguna, termasuk namun tidak terbatas pada meminjamkan atau memberikan akses akun kepada pihak lain, mengakses link atau tautan yang diberikan oleh pihak lain, memberikan atau memperlihatkan kode OTP, passphrase atau dokumen elektronik kepada pihak lain, kelalaian mencantumkan data Pengguna, maupun kelalaian Pengguna lainnya yang mengakibatkan kerugian ataupun kendala pada akun Pengguna.</li></small>
+                      <small><li>Pengguna memahami dan menyetujui bahwa Pengguna akan menggunakan Aplikasi hanya untuk tujuan yang dimaksud untuk membuat Laporan. Pengguna tidak diperbolehkan untuk menyalahgunakan atau menggunakan Aplikasi untuk aktivitas yang bertentangan dengan hukum, termasuk namun tidak terbatas kepada tindak pidana pencucian uang, pencurian, penggelapan, terorisme dan/atau penipuan. Pengguna juga memahami dan menyetujui bahwa Pengguna tidak akan menyebabkan ketidaknyamanan kepada orang lain atau melakukan pemalsuan melalui Aplikasi.</li></small>
+                      <small><li>Pengguna memahami dan menyetujui bahwa untuk mempergunakan fasilitas keamanan OTP maka penyedia jasa telekomunikasi terkait dapat sewaktu-waktu mengenakan biaya kepada Pengguna.</li></small>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK4" class="text-decoration-none text-dark">C. Layanan Aplikasi</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK4">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Aplikasi dioperasikan menggunakan perangkat seluler atau non seluler bersistem operasi Android OS</li></small>
+                      <small><li>Minimum versi Android OS untuk mengoperasikan Aplikasi adalah versi 11</li></small>
+                      <small><li>Koneksi internet diperlukan untuk dapat menggunakan Layanan. Oleh karena itu, segala biaya yang timbul atas koneksi perangkat elektronik Pengguna dengan jaringan internet merupakan tanggung jawab Pengguna sepenuhnya dan Pengguna melepaskan BKPSDM dan/atau Diskominfostan atas biaya yang timbul tersebut, termasuk namun tidak terbatas pada tanggung jawab, klaim, tuntutan, gugatan, dan/atau upaya hukum lainnya sehubungan dengan timbulnya biaya tersebut.</li></small>
+                      </ol>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK5" class="text-decoration-none text-dark">D. Layanan Pengguna</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK5">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>BKPSDM dan/atau Diskominfostan menyediakan Layanan bagi Pengguna dalam hal permasalah pada pengoperasian dan akses fitur AplikasiPengguna dapat menggunakan Layanan Pengguna apabila mengalami kendala dan/atau permasalahan dalam penggunaan Layanan dan/atau Aplikasi atau apabila ingin mengajukan penghentian penggunaan Layanan dan/atau Aplikasi..</li></small>
+                      <small><li>Dengan menggunakan Layanan Pengguna, maka Pengguna diharapkan sudah menyiapkan dokumen pendukung terkait dengan kendala dan/atau pemasalahan yang dihadapi dalam penggunaan Layanan dan/atau Aplikasi.</li></small>
+                      <small><li>Pengguna memahami dan menyetujui bahwa BKPSDM dan/atau Diskominfostan membutuhkan waktu untuk menyelesaikan kendala dan/atau permasalahan yang dihadapi oleh Pengguna terkait penggunaan Layanan dan/atau Aplikasi. Oleh karena itu, Pengguna akan melepaskan BKPSDM dan/atau Diskominfostan dari segala klaim, somasi, tuntutan, gugatan, dan/atau upaya hukum lainnya sehubungan dengan dilakukan pemeriksaan terlebih dahulu oleh BKPSDM dan/atau Diskominfostan atas kendala dan/atau permasalahan tersebut.</li></small>
+                      <small><li>BKPSDM dan/atau Diskominfostan berwenang untuk memberikan keputusan berdasarkan dokumen pendukung yang diberikan Pengguna dan dokumen atau informasi yang dimiliki BKPSDM dan/atau Diskominfostan terkait dengan kendala dan/atau permasalahan yang dialami Pengguna.</li></small>
+                      <small><li>Dalam menginformasikan keputusan atas kendala dan/atau permasalahan yang dihadapi Pengguna, maka BKPSDM dan/atau Diskominfostan akan menginformasi kepada Pengguna melalui WhatsApp dengan nomor 0811 6097 700 (Waktu operasional: hari Senin – Jumat, Pk. 08:00 - 16:30 WIB). Apabila dalam jangka waktu 3 (tiga) hari kalender sejak pertama kali dihubungi oleh BKPSDM dan/atau Diskominfostan, Pengguna tidak memberikan respon ataupun tanggapan, maka dengan ini Pengguna memahami dan menyetujui bahwa Pengguna dianggap setuju dengan keputusan yang diberikan oleh BKPSDM dan/atau Diskominfostan dan atas hal tersebut, Pengguna melepaskan BKPSDM dan/atau Diskominfostan dari segala klaim, somasi, gugatan, tuntutan, dan/atau upaya hukum lainnya.</li></small>
+                      </ol>
+                  </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK6" class="text-decoration-none text-dark">E. Hak Kekayaan Intelektual</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK6">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Hak kekayaan intelektual dalam dan terhadap Aplikasi, termasuk namun tidak terbatas pada logo, merek, software, dan/atau materi yang tercantum dalam Aplikasi, merupakan sepenuhnya dimiliki, dilisensi, atau dikontrol oleh BKPSDM dan Diskominfostan atau pemilik sah hak kekayaan intelektual (sesuai yang relevan) (disebut sebagai “Hak Kekayaan Intelektual”).</li></small>
+                      <small><li>Bagian atau bagian-bagian dari Aplikasi tidak boleh direproduksi, direkayasa balik (reverse engineer), didekompilasi, diutak-atik, dipisahkan, diubah, didistribusikan, dipublikasikan ulang, ditampilkan, disiarkan, dipranala (hyperlink), disalin (mirror), di-frame (framing), dipindahkan, atau dikirimkan dengan cara atau metode apa pun atau disimpan dalam sistem pemulihan informasi atau dipasang di server, sistem, atau peralatan apa pun tanpa izin tertulis dari Diskominfostan atau pemilik sah Hak Kekayaan Intelektual. Izin penggunaan Hak Kekayaan Intelektual hanya akan diberikan kepada Pengguna untuk mengunduh, mencetak, dan/atau menggunakan Aplikasi untuk penggunaan pribadi dan nonkomersial, dengan kondisi bahwa Pengguna tidak mengubah Hak Kekayaan Intelektual dan bahwa Diskominfostan atau pemilik sah Hak Kekayaan Intelektual tetap memegang dan/atau sebagai pemilik sah Hak Kekayaan Intelektual.</li></small>
+                      <small><li>Bagian manapun dari Aplikasi tidak menyatakan bahwa Hak Kekayaan Intelektual dialihkan kepada pihak manapun, tanpa persetujuan tertulis dari Diskominfostan atau pemilik sah Hak Kekayaan Intelektual.</li></small>
+                      <small><li>Pengguna memberikan BKPSDM dan Diskominfostan lisensi noneksklusif untuk menggunakan materi atau informasi yang Pengguna cantumkan atau kirimkan melalui Aplikasi dan/atau memberikan kepada BKPSDM dan/atau Diskominfostan melalui sarana lainnya, termasuk tetapi tidak terbatas pada pertanyaan, ulasan, komentar, dan saran. Saat mempublikasikan komentar atau ulasan pada Aplikasi, Pengguna juga memberikan BKPSDM dan/atau Diskominfostan hak untuk menggunakan nama Pengguna sehubungan dengan ulasan, komentar, dan/atau konten lain. Pengguna tidak boleh menggunakan alamat surat elektronik/email palsu, berpura-pura menjadi orang lain selain diri sendiri, atau menyesatkan BKPSDM dan/atau Diskominfostan, atau pihak manapun mengenai informasi apa pun yang Pengguna berikan.</li></small>
+                      </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK7" class="text-decoration-none text-dark">F. Penolakan Jaminan dan Batasan Tanggung Jawab</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK7">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Aplikasi disediakan oleh BKPSDM dan/atau Diskominfostan untuk menyediakan Layanan kepada Pengguna, termasuk penggunana TTE dari BSrE-BSSN melalui Aplikasi. Oleh karena itu, setiap Layanan yang disediakan oleh BSrE-BSSN menjadi tanggung jawab sepenuhnya BSrE-BSSN dan BKPSDM dan/atau Diskominfostan tidak mempekerjakan BSrE-BSSN serta tidak bertanggung jawab atas setiap tindakan dan/atau kelalaian dari BSrE-BSSN sehingga Pengguna memahami bahwa batasan tanggung jawab BKPSDM dan/atau Diskominfostan secara proporsional adalah sebagai penyedia Aplikasi.</li></small>
+                      <small><li>Diskominfostan selalu berupaya untuk menjaga Aplikasi aman, nyaman, dan berfungsi dengan baik, namun Diskominfostan tidak dapat menjamin operasi terus-menerus atau akses ke Aplikasi dapat selalu sempurna. Selain itu, informasi dan/atau data yang terdapat dalam Aplikasi memiliki kemungkinan tidak terjadi secara real time.</li></small>
+                      <small><li>Pengguna memahami dan menyetujui bahwa Pengguna memanfaatkan Aplikasi atas risiko Pengguna sendiri, dan Aplikasi diberikan kepada Pengguna dalam keadaan "sebagaimana adanya" dan "sebagaimana tersedia".</li></small>
+                      <small><li>Sejauh diizinkan oleh peraturan perundang-undangan yang berlaku, BKPSDM dan/atau Diskominfostan (termasuk Pemerintah Kabupaten Deli Serdang, unit kerja, dan/atau karyawan) adalah tidak bertanggungjawab, dan Pengguna memahami dan menyetujui untuk tidak menggunakan upaya hukum, termasuk namun tidak terbatas menuntut, menggugat, dan/atau upaya hukum lainnya, terhadap BKPSDM dan/atau Diskominfostan untuk bertanggungjawab, atas segala kerusakan atau kerugian (termasuk namun tidak terbatas pada hilangnya dokumen, reputasi, atau kerugian tak berwujud lainnya) yang diakibatkan secara langsung atau tidak langsung dari:
+                        <ol type="a">
+                          <li>Penggunaan atau ketidakmampuan Pengguna dalam menggunakan Aplikasi;</li>
+                          <li>Informasi atau petunjuk lain yang tersedia dalam Aplikasi;</li>
+                          <li>Keterlambatan atau gangguan dalam Aplikasi;</li>
+                          <li>Kelalaian dan/atau kerugian yang ditimbulkan oleh masing-masing Pengguna;</li>
+                          <li>Pelanggaran Hak atas Kekayaan Intelektual;</li>
+                          <li>Pencemaran nama baik pihak lain;</li>
+                          <li>Virus atau perangkat lunak berbahaya lainnya (bot, script, automation tool, hacking tool) yang diperoleh dengan mengakses, atau menghubungkan Aplikasi;</li>
+                          <li>Gangguan, bug, kesalahan atau ketidakakuratan apapun dalam Aplikasi;</li>
+                          <li>Kerusakan pada perangkat keras Pengguna dari penggunaan Aplikasi;</li>
+                          <li>Tindak penegakan yang diambil sehubungan dengan akun Pengguna;</li>
+                          <li>Adanya tindakan peretasan yang dilakukan oleh pihak ketiga kepada akun Pengguna;</li>
+                        </ol>
+                      </li></small>
+                      </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK8" class="text-decoration-none text-dark">H. Pilihan Hukum dan Penyelesaian Perselisihan</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK8">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Syarat dan Ketentuan ini dibuat dan diatur dengan tunduk kepada hukum yang berlaku di Republik Indonesia.</li></small>
+                      <small><li>Segala perselisihan atau perbedaan pendapat yang timbul atas pelaksanaan dari Syarat dan Ketentuan ini, termasuk namun tidak terbatas pada pelanggaran terhadap ketentuan dalam Ketentuan Situs, Syarat dan Ketentuan ini, dan/atau peraturan perundang-undangan yang berlaku, terlebih dahulu akan dibicarakan dan diselesaikan oleh BKPSDM dan/atau Diskominfostan dan Pengguna secara musyawarah untuk mufakat, dan apabila musyawarah untuk mufakat tetap tidak tercapai, maka BKPSDM dan/atau Diskominfostan dan Pengguna setuju dan sepakat untuk menyelesaikannya melalui pengadilan sesuai dengan yurisdiksi hukum dari BKPSDM dan/atau Diskominfostan.</li></small>
+                      </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK9" class="text-decoration-none text-dark">I. Data Pengguna</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK9">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Pengguna dengan ini menyatakan bahwa memberikan Data dan/atau informasi lainnya melalui Aplikasi secara sadar dan tanpa paksaan dari BKPSDM dan/atau Diskominfostan maupun pihak manapun.</li></small>
+                      <small><li>Dengan memberikan memberikan Data dan/atau informasi lainnya melalui Aplikasi maka Pengguna memahami dan menyetujui Kebijakan Privasi yang berlaku dalam penggunaan Aplikasi, dimana Kebijakan Privasi dapat dilihat <a href="https://Kinerja.deliserdangkab.go.id/privacy-policy" class="text-decoration-none text-dark">DISINI.</a></li></small>
+                    </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK10" class="text-decoration-none text-dark">J. Penghentian Layanan</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK10">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Pengguna sewaktu-waktu dapat menghentikan penggunaan Aplikasi, termasuk meminta akun beserta Data dihapus kepada BKPSDM dan/atau Diskominfostan dengan cara menghubungi BKPSDM dan/atau Diskominfostan melalui Layanan Pengguna.</li></small>
+                      <small><li>BKPSDM dan/atau Diskominfostan berhak sewaktu-waktu untuk segera menangguhkan, membatasi, dan/atau menghentikan penggunaan Aplikasi oleh Pengguna apabila berdasarkan penilaian dari BKPSDM dan/atau Diskominfostan bahwa Pengguna telah melanggar ketentuan dalam Ketentuan Situs, Syarat dan Ketentuan ini atau peraturan perundang-undangan yang berlaku.</li></small>
+                      <small><li>BKPSDM dan/atau Diskominfostan dan Pengguna memahami dan menyetujui untuk mengesampingkan ketentuan dalam Pasal 1266 dan Pasal 1267 Kitab Undang-Undang Hukum Perdata sehubungan dengan penghentian penggunaan Aplikasi.</li></small>
+                    </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK12" class="text-decoration-none text-dark">K. Perubahan Syarat dan Ketentuan</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK12">
+                  <div class="card card-body tnc">
+                    <small><p>Syarat dan Ketentuan dapat diubah dan/atau diperbaharui dari waktu ke waktu, oleh karena itu, BKPSDM dan/atau Diskominfostan menyarankan Pengguna agar memeriksa dan membaca secara seksama Syarat dan Ketentuan ini dari waktu ke waktu untuk mengetahui perubahan dan/atau pembaharuan tersebut. Dengan tetap mengakses Aplikasi, maka Pengguna dianggap telah membaca, memahami dan menyetujui Syarat dan Ketentuan ini, termasuk perubahan dan/atau pembaharuannya.</p></small>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+        <!-- Start -->
+        <div class="collapse" id="collapseSNK">
+          <div class="card card-body tanya mb-2">
+            <div class="row">
+              <div class="col">
+                <p>
+                  <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSNK13" class="text-decoration-none text-dark">L. Lain-Lain</a>
+                </p>
+                </div>
+              </div>
+                <div class="collapse" id="collapseSNK13">
+                  <div class="card card-body tnc">
+                    <ol>
+                      <small><li>Judul di dalam Syarat dan Ketentuan ini dibuat hanya sebagai acuan, dan sama sekali tidak menetapkan, membatasi, menjelaskan atau menjabarkan apa yang termaktub dalam masing-masing bagian tersebut.</li></small>
+                      <small><li>Apabila ketentuan apa pun dalam Syarat dan Ketentuan ini dianggap ilegal, tidak valid, atau tidak dapat dilaksanakan, secara keseluruhan atau sebagian, berdasarkan putusan pengadilan yang berkekuatan hukum tetap (inkracht) dan/atau peraturan perundang-undangan yang berlaku, maka ketentuan atau bagian dari ketentuan tersebut dianggap bukan merupakan bagian dari Syarat dan Ketentuan ini, tetapi kelegalan, keabsahan, dan keberlakuan dari ketentuan lainnya dalam Syarat dan Ketentuan ini tetap berlaku dan mengikat BKPSDM dan/atau Diskominfostan dan Pengguna.</li></small>
+                      <small><li>Syarat dan Ketentuan ini telah dibuat dalam Bahasa Indonesia yang mengikat BKPSDM dan/atau Diskominfostan dan Pengguna.</li></small>
+                    </ol>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+            </div>
+          </div>
+          </div>
+          </div>
+        </div>
+        <!-- Ending Syarat dan Ketentuan -->
+
+        <!-- Panduan -->
+        <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="panduan">
+          <div class="row">
+            <div class="col-10">
+              <h5>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan" class="text-decoration-none text-light"><i class="bi bi-book text-decoration-none text-light"></i> Panduan</a>
+              </h5>
+              </div>
+                <div class="col-2">
+                <h5 class="text-end me-2">
+                  <a href="#" data-bs-toggle="collapse" data-bs-target="#collapsePanduan"><i class="bi bi-three-dots-vertical text-decoration-none text-light"></i></a>
+                </h5>
+              </div>
+            </div>
+          <div class="collapse" id="collapsePanduan">
+        </div>
+      <!-- Start -->
+      <div class="collapse" id="collapsePanduan">
+        <div class="card card-body panduan mb-2">
+          <div class="row">
+            <div class="col-10">
+              <p>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan1" class="text-decoration-none text-dark">Login</a>
+              </p>
+            </div>
+            <div class="collapse" id="collapsePanduan1"> 
+              <small class="card card-body panduanIsi"><ol>
+                <li>
+                  Ketikkan nomor WhatsApp yang terdaftar<br>
+                  <img src="img/login-1.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                  <li>Lalu tekan tombol Masuk</li>
+                  <li>Kode OTP akan dikirimkan ke WhatsApp Anda</li>
+                </li>
+                <li>
+                  Periksa kode OTP yang dikirimkan ke WhatsApp<br>
+                  <img src="img/what-1.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                  <li>Ketikkan kode OTP</li>
+                  <img src="img/login-2.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                  <li>Tekan tombol Konfirmasi</li>
+                </li>
+              </ol></small>
+              <small class="text-danger">Catatan:<br /></small>
+              <small>Pastikan perangkat Anda terhubung ke internet</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+      <!-- Start -->
+      <div class="collapse" id="collapsePanduan">
+        <div class="card card-body panduan mb-2">
+          <div class="row">
+            <div class="col-10">
+              <p>
+                <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan2" class="text-decoration-none text-dark">Mengubah profil</a>
+              </p>
+            </div>
+            <div class="collapse" id="collapsePanduan2"> 
+              <small class="card card-body panduanIsi"><ol>
+                <li>
+                  Tekan menu ikon Profil <br>
+                  <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                </li>
+                <li>
+                  Tekan ikon kamera untuk mengganti foto profil<br>
+                  <img src="img/ganti-foto.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                </li>
+                <li>
+                  Lengkapi bio data Anda<br>
+                  <img src="img/profil-3.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                </li>
+                <li>
+                  Silahkan tekan tombol simpan jika sudah melengkapi data<br>
+                  <img src="img/profil-simpan.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                </li>
+              </ol></small>
+              <small class="text-danger">Catatan:<br /></small>
+              <small>Pastikan perangkat Anda terhubung ke internet</small>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan3" class="text-decoration-none text-dark">Membuat laporan harian</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan3"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Buat<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Isi kolom Aktivitas dengan kegiatan harian</li>
+                        <li>Pilih tanggal yang sesuai</li>
+                        <li>Pilih satuan yang sesuai</li>
+                        <li>Isi waktu yang sesuai</li>
+                        <img src="img/buat-lap-1.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Kolom keterangan tidak wajib diisi</li>
+                        <li>Tekan tombol kamera untuk menambahkan foto dari kamera, atau
+                        <br>Tekan tombol galery untuk menambahkan foto dari galeri perangkat</li>
+                        <img src="img/buat-lap-2.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Tekan tombol Simpan untuk konfirmasi</li>
+                      </li>
+                    </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Jika kegiatan harian lebih dari satu, maka buat kegiatan tambahan pada tanggal yang sama</li></small>
+                    <small><li>Minimal waktu yang harus dipenuhi adalah sesuai dengan yang sudah ditetapkan</li></small>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan4" class="text-decoration-none text-dark">Melihat draf laporan bulanan</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan4"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Detil laporan akan ditampilkan</li>
+                        <img src="img/detil-lap.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Tekan tombol aksi</li>
+                      <li>Tekan tombol tahun-bulan untuk mengganti bulan laporan</li>
+                        <img src="img/floating-ganti-bulan.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Tekan tombol Pratinjau</li>
+                        <img src="img/floating-lap-pratinjau.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Draf akan tampil</li>
+                        <img src="img/pratinjau.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                    </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Draf hanya sebagai simulasi tampilan akhir laporan bulanan</li></small>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan5" class="text-decoration-none text-dark">Melihat capaian waktu</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan5"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Tekan tombol aksi</li>
+                        <img src="img/floating-waktu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Total capaian waktu per hari akan tampil</li>
+                        <img src="img/periksa-waktu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                    </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Capaian waktu per hari harus sesuai dengan ketentuan</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan6" class="text-decoration-none text-dark">Memeriksa capaian waktu</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan6"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Tekan tombol aksi</li>
+                        <img src="img/floating-waktu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Total capaian waktu per hari akan tampil</li>
+                        <img src="img/periksa-waktu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                    </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Sesuai capaian waktu per hari agar memenuhi ketentuan</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan7" class="text-decoration-none text-dark">Permohonan paraf atasan</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan7"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Tekan tombol aksi, lalu tekan tombol Minta Paraf</li>
+                        <img src="img/floating-paraf.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Anda akan dialihkan ke WhatsApp untuk melanjutkan pesan sesuai format kepada Atasan</li>
+                      <li>Silahkan kirim pesan sesuai format kepada Atasan sebagai bukti permohonan paraf</li>
+                        </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Untuk melanjutkan permohonan tanda tangan, pastikan tiap-tiap laporan harian sudah diparaf atasan</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan7a" class="text-decoration-none text-dark">Paraf laporan anggota</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan7a"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Paraf<br>
+                        <img src="img/menu-paraf.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Pilih anggota dan bulan, Lalu tekan tombol Lihat Laporan</li>
+                        <img src="img/pilih-paraf-anggota.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Anda akan dialihkan pada tampilan seperti berikut ini</li>
+                        <img src="img/tampil-paraf.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Ada dua cara melakukan paraf laporan anggota,<br>
+                          Pertama: satu persatu
+                          <ul>
+                            <li>
+                              Pilih salah satu baris laporan harian<br>
+                              <img src="img/pilih-paraf-salah-satu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                            </li>
+                            <li>
+                              Tekan tombol paraf<br>
+                              <img src="img/paraf-persatu.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                              <br>Jika berhasil akan muncul pesan "berhasil paraf"
+                            </li>
+                          </ul>
+                          <br>Kedua: sekaligus
+                          <ul>
+                            <li>
+                              Tekan tombol aksi, lalu pilih paraf semua
+                              <img src="img/paraf-semua.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                            </li>
+                            <li>Pilih OKE untuk melanjutkan
+                              <img src="img/paraf-semua-oke.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                              <br>Jika berhasil akan muncul pesan "berhasil paraf semua"
+                            </li>
+                          </ul>
+                        </li>
+                        </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Untuk batal paraf dapat dilakukan dengan cara yang sama, hanya saja berada pada pilihan batal paraf/semua</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+            <!-- Start -->
+            <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan8" class="text-decoration-none text-dark">Permohonan tanda tangan atasan</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan8"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>Pastikan semua laporan harian Anda sudah diparaf Atasan</li>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/bottom-nav.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Tekan tombol aksi, lalu tekan tombol Ajukan</li>
+                        <img src="img/floating-ajukan.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      <li>Tekan tombol Buat Permohonan</li>
+                        <img src="img/konfirmasi-buat-permohonan.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Ketikkan Nomor Induk Kependudukan/KTP Anda</li>
+                        <li>Ketikkan passphrase Anda, atau<br>
+                          Tekan tombol sidik jari jika Anda sudah mengaktifkan fitur sidik jari pada Aplikasi</li>
+                          <img src="img/tteku.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                          <li>Jika berhasil akan muncul pesan "tanda tangan berhasil"</li>
+                        </ol></small>
+                    <small class="text-danger">Catatan:<br /></small>
+                    <ul>
+                    <small><li>Pastikan koneksi internet Anda stabil</li></small>
+                    <small><li>Jika gagal saat tanda tangan sebanyak 3 (tiga) kali berturut-turut, makan Akun TTE Anda akan terblokir</li></small>
+                    <small><li>Untuk melanjutkan permohonan tanda tangan, pastikan tiap-tiap laporan harian sudah diparaf atasan</li></small>
+                  </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <!-- End -->
+              <!-- Start -->
+              <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan9" class="text-decoration-none text-dark">Menandatangani laporan bulanan anggota</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan9"> 
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Laporan<br>
+                        <img src="img/menu-pengajuan-anggota.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Pilih baris pengajuan anggota yang berstatus "Sedang Proses"</li>
+                        <img src="img/pilih-pengajuan.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Tekan tombol Tandatangani</li>
+                        <img src="img/tandatangani.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Ketikkan Nomor Induk Kependudukan/KTP Anda</li>
+                        <li>Ketikkan passphrase Anda, atau<br>
+                        Tekan tombol sidik jari jika Anda sudah mengaktifkan fitur sidik jari pada Aplikasi</li>
+                        <img src="img/tteku.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </ol></small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <ul>
+                    <small><li>Pastikan koneksi internet Anda stabil</li></small>
+                    <small><li>Jika gagal saat tanda tangan sebanyak 3 (tiga) kali berturut-turut, makan Akun TTE Anda akan terblokir</li></small>
+                    <small><li>Bawahan harus mengajukan permohonan tanda tangan terlebih dahulu</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+              <!-- Start -->
+              <div class="collapse" id="collapsePanduan">
+              <div class="card card-body panduan mb-2">
+                <div class="row">
+                  <div class="col-10">
+                    <p>
+                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan10" class="text-decoration-none text-dark">Mengirim laporan bulanan ke admin unit kerja/ bagian umum</a>
+                    </p>
+                  </div>
+                  <div class="collapse" id="collapsePanduan10">
+                    <small class="card card-body panduanIsi"><ol>
+                      <li>
+                        Tekan tombol menu Berkasku<br>
+                        <img src="img/menu-berkasku.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                      </li>
+                      <li>Pilih baris berkas yang berstatus "Disetujui"</li>
+                        <img src="img/berkas-yg-disetujui.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Periksa TTE terlebih dahulu, tekan tombol Periksa TTE</li>
+                        <img src="img/kirim-ke-bag-umum.png" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Pastikan terdapat 2 (dua) nama penandatangan (Anda dan Atasan) seperti contoh gambar di bawah ini, jika tidak ada maka ulangi proses pengajuan tanda tangan</li>
+                        <img src="img/periksa-tte.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                        <li>Jika sudah sesuai, silahkan tekan tombol Kirim ke bagian umum.<br>Jika berhasil tombol Kirim ke bagian umum akan hilang</li>
+                      </ol></small>
+                      <small class="text-danger">Catatan:<br /></small>
+                      <ul>
+                    <small><li>Untuk mengajukan ulang tanda tangan laporan bulanan, Anda harus menghapus laporan bulanan yang gagal/rusak.</li></small>
+                    <small><li>Kesalahan hapus laporan bulanan adalah tanggung jawab Pengguna</li></small>
+                    </ul>
+                  </div>
+                </div>
+                </div>
+              </div>
+              <!-- End -->
+                            <!-- Start -->
+                            <div class="collapse" id="collapsePanduan">
+                              <div class="card card-body panduan mb-2">
+                                <div class="row">
+                                  <div class="col-10">
+                                    <p>
+                                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan11" class="text-decoration-none text-dark">Mengaktifkan fitur sidik jari</a>
+                                    </p>
+                                  </div>
+                                  <div class="collapse" id="collapsePanduan11">
+                                    <small class="card card-body panduanIsi"><ol>
+                                      <li>
+                                        Buka menu Sidik Jari
+                                        <img src="img/menu-fingerprint.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                                      </li>
+                                      <li>Ketikkan Nomor Induk Kependudukan/ KTP dan Passphrase TTE Anda yang sesuai</li>
+                                        <img src="img/fingerprint.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                                        <li>Lalu tekan tombol Simpan ke sidik jari</li>
+                                      </ol></small>
+                                      <small class="text-danger">Catatan:<br /></small>
+                                      <ul>
+                                    <small><li>Tidak ada notifikasi berhasil atau gagal dalam menu pengaturan sidik jari ini.</li></small>
+                                    <small><li>Berhasil atau gagal hanya diketahui saat penandatangan laporan menggunakan sidik jari.</li></small>
+                                    <small><li>Jika saat menggunakan fitur sidik jari pada saat penandatanganan, mohon set ulang pengaturan sidik jari pada menu ini</li></small>
+                                    </ul>
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                              <!-- End -->
+                              <!-- Start -->
+                            <div class="collapse" id="collapsePanduan">
+                              <div class="card card-body panduan mb-2">
+                                <div class="row">
+                                  <div class="col-10">
+                                    <p>
+                                      <a href="#" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePanduan12" class="text-decoration-none text-dark">Mengunggah dan mengganti QR Code</a>
+                                    </p>
+                                  </div>
+                                  <div class="collapse" id="collapsePanduan12">
+                                    <small class="card card-body panduanIsi"><ol>
+                                      <li>
+                                        Buka menu QR Code
+                                        <img src="img/menu-qr-code.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                                      </li>
+                                      <li>Tekan tombol Ganti QR Code untuk mengunggah file QR Code Anda dari galeri perangkat</li>
+                                        <img src="img/qr.jpg" alt="screenshot" style="width: 100%;" class="screenshot">
+                                      </ol></small>
+                                      <small class="text-danger">Catatan:<br /></small>
+                                      <ul>
+                                    <small><li>QR Code harus sesuai dengan ketentuan dari BSrE-BSSN dan Diskominfostan.</li></small>
+                                    <small><li>Untuk pembuatan QR Code silahkan berkoordinasi ke Bidan TIKSan Diskominfostan</li></small>
+                                    <small><li>Penyalahgunaan QR Code adalah tanggung jawab Pengguna</li></small>
+                                    </ul>
+                                  </div>
+                                </div>
+                                </div>
+                              </div>
+                              <!-- End -->
+            </div>
+          </div>
+        </div>
+        <!-- Ending Panduan -->
+
+    <!-- Ulas aplikasi -->
+    <div class="card m-4 p-2 rounded shadow border-opacity-25 border-light-subtle" id="rating">
+      <div class="row">
+        <div class="col-10">
+          <h5>
+            <div type="button" data-bs-toggle="collapse" data-bs-target="#collapseUlas" class="text-decoration-none text-light"><a href="https://play.google.com/store/apps/details?id=id.go.deliserdangkab.Kinerja" class="text-decoration-none text-light""><i class="bi bi-hand-thumbs-up text-decoration-none text-light"> Ulas Aplikasi</i></a></div>
+          </h5>
+        </div>
+      </div>
+      </div>
+    </div>
+    <!-- Ending Ulas aplikasi -->
+
+    <!-- versi -->
+    <small><p class="text-center text-muted versi">Pusat Bantuan<br>Kinerja DS v2.2023.10<br>diperbarui 01 Oktober 2023</p></small>
+    <!-- ending versi -->
+
+    <a href="https://wa.me/628116097700"> <img src="img/whatsapp.png" width="64px" class="position-fixed bottom-0 end-0 mb-4 me-4" alt="WhatsApp" /> </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
